@@ -8,6 +8,7 @@ import re
 from datetime import datetime
 from bs4 import BeautifulSoup
 
+
 class RomicsSpider(scrapy.Spider):
     name = "romics"
     allowed_domains = ["www.romics.it"]
